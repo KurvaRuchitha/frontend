@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="background-color: antiquewhite;">
+    <h1 align="center" style="background-color: darkmagenta;"" >Quiz</h1>
+     <forms method="get">
+        <label for="name" >Name:*</label>
+        <input type="text" name="name" placeholder="Please enter your name" id="name" required><br><br>
+        <label for="rollno">Roll no:*</label>
+        <input type="number" name="rollno" placeholder="Enter your rollno" id="rollno" required><br><br>
+        <label for="id" >Choose Id card:*</label>
+        <input type="file" name="file" id="id" required><br><br>
+        <label for="Gender">Gender:*</label>
+        <input type="radio" name="gender" value="female" id="Gender" required>Female
+        <input type="radio" name="gender" value="male" id="Gender" required>Male
+        <hr>
+        <ol>
+            <li><label for="1" >Choose pet animals: </label>
+            <input type="checkbox" name="cat" value="cat">Cat
+            <input type="checkbox" name="dog" value="dog">Dog
+            <input type="checkbox" name="Lion" value="Lion">Lion
+            <input type="checkbox" name="Snake" value="snake">Snake
+            </li><br>
+        <li><label for="2">Choose capital of India: </label>
+            <select name = "dropdown">
+                <option value = "State" selected>State</option>
+                <option value = "Telangana">Telangana</option>
+                <option value = "Kerala">Kerala</option>
+                <option value = "New Delhi">New Delhi</option>
+                <option value = "Gujarat">Gujarat</option>
+                <option value = "Mumbai">Mumbai</option>
+             </select>
+        </li><br>
+        <li><label for = "3">Write about your favourite Teacher:</label><br>
+            <textarea rows = "5" cols = "50" name = "description">
+                Enter description here...
+             </textarea>
+        </li>
+        </ol>
+        <input type="submit">
+        <input type="reset">
+     </forms>
+     
+</body>
+</html>
